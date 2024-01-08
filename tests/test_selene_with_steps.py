@@ -1,8 +1,7 @@
 import allure
 from selene.support import by
-from selene.support.conditions import be
 from selene.support.shared.jquery_style import s
-from selene import browser
+from selene import browser, be
 
 def test_selene():
     with allure.step("Открываем github"):
